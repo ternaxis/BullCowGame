@@ -19,7 +19,7 @@ void UBullCowCartridge::OnInput(const FString& Input) // When the player hits en
     if(HiddenWord == Input){
     PrintLine(TEXT("You have won!"));
     }
-    else 
+    else
     {
         PrintLine(TEXT("You have lost!"));
     }
